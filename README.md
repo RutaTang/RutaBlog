@@ -10,7 +10,7 @@ The place Ruta write blog posts and these posts will be also transfered to [my p
 
 ## Notable
 
-This section is just for me, the author.
+*Note: This section is just for me to remind things, ignore it if you are visitors.*
 
 ### Folder Structure
 
