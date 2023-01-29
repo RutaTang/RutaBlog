@@ -24,6 +24,18 @@ The place Ruta write blog posts and these posts will be also transfered to [my p
 └── zh                         # 1
 ```
 
+## Meta info
+
+```json
+{
+   "tags":[
+        "Tag1",
+        "Tag2",
+        "Tag3/SubTag/SubTag"
+   ] 
+}
+```
+
 
 
 
