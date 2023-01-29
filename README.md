@@ -8,29 +8,33 @@ The place Ruta write blog posts and these posts will be also transfered to [my p
 
 ## Posts By Tag
 
-## Notable
+## Notable (Author Only)
 
-*Note: This section is just for me to remind things, ignore it if you are visitors.*
+***Note: This section is just for me to remind things, ignore it if you are visitors.***
 
 ### Folder Structure
 
-1. Language folder
-2. Post folder
+1. Post folder
+2. Language folder
 3. Main post markdown
-4. Meta information of the post, such as tags, created date, and more
-5. Related assets
+4. Meta information of the post, such as tags and more
+5. General-related assets (apply to all languages)
+6. Lang-specific assets (apply to only current lang)
 
 ```
 .
 ├── README.md
-├── en                         # 1
-│   └── the-math-proof-methods # 2
-│       ├── img.png            # 5
-│       ├── main.md            # 3
-│       ├── meta.json          # 4
-│       └── video.mp4          # 5
-├── fr                         # 1
-└── zh                         # 1
+└── posts
+    └── the-mathmatic-proof-methods #1
+        ├── en                      #2
+        │   ├── README.md           #3
+        │   └── img.png             #6
+        ├── fr
+        │   └── README.md
+        ├── general-assets          #5
+        ├── meta.json               #4
+        └── zh
+            └── README.md
 ```
 
 ### Meta info
