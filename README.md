@@ -2,8 +2,17 @@
 
 The place Ruta write blog posts and these posts will be also transfered to [my personal website](https://www.rutatang.com/) once I redesign and re-develope it. I mainly write about **CS**, **Math**, **Language**, **Economics**, **Finance**, and **Music**. The posts will be written in multiple languages, currently in **English**, **Chinese**, **French**.
 
+## Posts Recommendation
 
-## Folder Structure
+## Posts By Date
+
+## Posts By Tag
+
+## Notable
+
+This section is just for me, the author.
+
+### Folder Structure
 
 1. Language folder
 2. Post folder
@@ -24,7 +33,7 @@ The place Ruta write blog posts and these posts will be also transfered to [my p
 └── zh                         # 1
 ```
 
-## Meta info
+### Meta info
 
 ```json
 {
