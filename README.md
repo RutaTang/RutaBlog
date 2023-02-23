@@ -20,12 +20,24 @@ The place Ruta write blog posts and these posts will be also transfered to [my p
 4. Meta information of the post, such as tags and more
 5. General-related assets (apply to all languages)
 6. Lang-specific assets (apply to only current lang)
+7. Card Folder
 
 ```
 .
 ├── README.md
 └── posts
     └── the-mathmatic-proof-methods #1
+        ├── en                      #2
+        │   ├── README.md           #3
+        │   └── img.png             #6
+        ├── fr
+        │   └── README.md
+        ├── general-assets          #5
+        ├── meta.json               #4
+        └── zh
+            └── README.md
+└── cards
+    └── Omit in Typescript          #7
         ├── en                      #2
         │   ├── README.md           #3
         │   └── img.png             #6
